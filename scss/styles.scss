@@ -1,0 +1,30 @@
+// Variable Overrides
+$enable-gradients: true !default;
+
+$theme-colors: (
+  "primary": #f6d365
+);
+
+.bh-cards .fas {
+  font-size: 2rem;
+}
+
+.hero-section {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding: 10rem 0;
+}
+
+.bh-hero-select {
+  min-height: 8rem;
+}
+
+.card:hover {
+  background: red;
+}
+
+$font-family-base: 'Roboto Mono';
+
+$navbar-padding-y: 20px;
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
