@@ -20,6 +20,19 @@
   background: rgba(0, 0, 0, 0.1);
   cursor: pointer; }
 
+.listgroup-100 {
+  width: 100% !important; }
+
+#air h2 {
+  line-height: 1.8em; }
+
+.airline {
+  padding: 4px 7px;
+  text-transform: uppercase;
+  margin: 0 2px;
+  background: #4d5c6b;
+  color: #FFF; }
+
 .sidebar {
   position: fixed !important;
   top: 0;
